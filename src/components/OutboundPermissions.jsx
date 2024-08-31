@@ -21,7 +21,7 @@ const OutboundPermissions = ({
     <div className="p-6 bg-gray-200">
         <div className="text-2xl font-bold my-1">Outbound</div>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-4 ">
+      <div className="flex flex-col md:grid grid-cols-1 md:grid-cols-2 gap-4 ">
         {/* Sales Order Section */}
         <div className="border rounded-lg p-4 bg-white">
           <h2 className="text-lg font-semibold mb-2">Sales Order</h2>
